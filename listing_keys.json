@@ -8,7 +8,10 @@
 			"content_type": "text"
 		},
 		{
-			
+			"name": "price_regular",
+			"tag": "span",
+			"class": "product-price__regular",
+			"content_type": "text"
 		}
 	]
 }
