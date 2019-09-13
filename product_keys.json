@@ -1,0 +1,17 @@
+{
+	"main_keys": [
+		{
+			"name": "technical_details",
+			"tag": "div",
+			"class": "detail_nav_content product_tab_info",
+			"members": [
+				{
+					"name": "detail",
+					"tag": "td",
+					"class": "produktDetails_eigenschaft3",
+					"iterable": "true"
+				}
+			]
+		}
+	]
+}
