@@ -1,6 +1,6 @@
 {
 	"main_url": "https://www.notebooksbilliger.de/notebooks",
-	"listing_keys": [
+	"elements": [
 		{
 			"name": "title",
 			"tag": "a",
