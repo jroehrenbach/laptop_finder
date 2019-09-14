@@ -1,0 +1,24 @@
+{
+	"elements": {
+		"price_regular": {
+			"tag": "",
+			"class": "",
+			"type": "",
+			"iterable": "false"
+		},
+		"technical_details": {
+			"tag": "div",
+			"class": "detail_nav_content product_tab_info",
+			"type": "tree",
+			"iterable": "false",
+			"elements": {
+				"detail": {
+					"tag": "td",
+					"class": "produktDetails_eigenschaft3",
+					"type": "text",
+					"iterable": "true"
+				}
+			}
+		}
+	}
+}
