@@ -1,5 +1,6 @@
 {
 	"url": "https://www.notebooksbilliger.de/notebooks",
+	"iter_format": "/page/%d",
 	"elements": {
     	"product": {
         	"tag": "div",
@@ -18,6 +19,13 @@
         			"class": "product-price__regular",
         			"type": "text",
             	"iterable": "false"
+        		},
+        		"url": {
+        			"tag": "a",
+        			"class": "listing_product_title",
+        			"type": "attribute",
+            	"iterable": "false",
+            	"attribute": "href"
         		}
     		}
     	}
