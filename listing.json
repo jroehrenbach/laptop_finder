@@ -1,17 +1,25 @@
 {
-	"main_url": "https://www.notebooksbilliger.de/notebooks",
-	"elements": [
-		{
-			"name": "title",
-			"tag": "a",
-			"class": "listing_product_title",
-			"content_type": "text"
-		},
-		{
-			"name": "price_regular",
-			"tag": "span",
-			"class": "product-price__regular",
-			"content_type": "text"
-		}
-	]
+	"url": "https://www.notebooksbilliger.de/notebooks",
+	"elements": {
+    	"product": {
+        	"tag": "div",
+        	"class": "mouseover clearfix js-listing-item-GTM",
+        	"type": "tree",
+        	"iterable": "true",
+        	"elements": {
+        		"title": {
+        			"tag": "a",
+        			"class": "listing_product_title",
+        			"type": "text",
+            	"iterable": "false"
+        		},
+        		"price_regular": {
+        			"tag": "span",
+        			"class": "product-price__regular",
+        			"type": "text",
+            	"iterable": "false"
+        		}
+    		}
+    	}
+	}
 }
