@@ -26,6 +26,12 @@
         			"type": "attribute",
             	"iterable": "false",
             	"attribute": "href"
+        		},
+        		"description": {
+            	"tag": "span",
+            	"class": "short_description",
+            	"type": "text",
+            	"iterable": "false"
         		}
     		}
     	}
