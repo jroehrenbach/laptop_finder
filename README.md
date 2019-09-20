@@ -17,6 +17,12 @@ numpy
 smtplib
 <br /><br />
 
+### How to run it
+Change following parameters in "main" - function in scraper.py:
+<br />
+origin_addr, target_addr, origin_pwd
+<br /><br />
+
 ### scraper.py
 Script for scraping desired website and sending matches to target email address.
 <br /><br />
