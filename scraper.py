@@ -299,24 +299,30 @@ def send_email(message, gmail_addr, target_addr, pwd):
 
 
 def main():
+    #>> change email address (and password) the message should be sent to to yours
+    origin_addr = "your_first_address@something.com"
+    target_addr = "your_target_address@something.com"
+    origin_pwd = "your_password"
+    
+    #>> adapt conditions here
     conditions = {
             "title": ["Lenovo"],
             "description": [["GTX","GTR"],"i7","15,6"]
     }
     price_max = 850
     
+    # scrapes entire listings www.notebooksbilliger.de
     listings = scrape_listings()
+    # customizes data using conditions
     custom = get_custom_listings(listings,conditions,price_max)
     
     if custom.empty:
         return
     
+    # sends email to target_addr if matches are found
     urls = "\n".join(custom.url)
     message = "Check out these laptops:\n" + urls
-    gmail_addr = "jroehrenbach@gmail.com"
-    target_addr = "jroehrenbach@aol.de"
-    app_pwd = "vazo zsjk pcqq kbcf"
-    send_email(message, gmail_addr, target_addr, app_pwd)
+    send_email(message, origin_addr, target_addr, origin_pwd)
 
 
 if __file__ == "__main__":
